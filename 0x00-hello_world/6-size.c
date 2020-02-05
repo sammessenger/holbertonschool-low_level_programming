@@ -1,7 +1,13 @@
+/**
+* main - prints sizes of various types
+*
+* Return: should be 0
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
 int c = sizeof(char);
 int i = sizeof(int);
