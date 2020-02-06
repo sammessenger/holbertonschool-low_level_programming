@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  * main - should determine a random number's sign
  *
  * Return: should be null
-*/
+ */
 int main(void)
 {
 	int n;
