@@ -1,5 +1,5 @@
 /**
- * times_tables - should print the nine times table
+ * times_table - should print the nine times table
  *
  * Return: should be null
 */
@@ -20,7 +20,7 @@ void times_table(void)
 				_putchar(c / 10 + '0');
 				_putchar(c % 10 + '0');
 
-				if (a !=9)
+				if (a != 9)
 				_putchar(',');
 			}
 			else
