@@ -1,8 +1,14 @@
+/**
+* main - should print Holberton
+*
+* Return: should be 0
+*/
+
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
 _putchar('H');
 _putchar('o');
