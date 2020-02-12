@@ -15,10 +15,12 @@ int main(void)
 
 	for (i = 0; i <= 50; i++)
 	{
-		printf("%li, ", c);
+		printf("%li", c);
 		a = b + c;
 		b = c;
 		c = a;
+		if (i != 50)
+		printf(", ");
 	}
 	printf("\n");
 	return (0);
