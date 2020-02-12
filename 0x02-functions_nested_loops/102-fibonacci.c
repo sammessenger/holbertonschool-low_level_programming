@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	long a = 1;
 	long b = 1;
-	long c = 0;
+	long c = 1;
 
 	for (i = 0; i <= 50; i++)
 	{
