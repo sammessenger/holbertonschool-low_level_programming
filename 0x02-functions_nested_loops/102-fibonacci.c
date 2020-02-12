@@ -21,8 +21,6 @@ int main(void)
 		c = a;
 		if (i != 49)
 		printf(", ");
-
-		
 	}
 	printf("\n");
 	return (0);
