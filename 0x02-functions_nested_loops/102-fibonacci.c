@@ -13,14 +13,16 @@ int main(void)
 	long b = 1;
 	long c = 1;
 
-	for (i = 0; i <= 50; i++)
+	for (i = 0; i < 50; i++)
 	{
 		printf("%li", c);
 		a = b + c;
 		b = c;
 		c = a;
-		if (i != 50)
+		if (i != 49)
 		printf(", ");
+
+		
 	}
 	printf("\n");
 	return (0);
