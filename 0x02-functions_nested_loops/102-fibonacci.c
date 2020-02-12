@@ -20,5 +20,6 @@ int main(void)
 		b = c;
 		c = a;
 	}
+	printf("\n");
 	return (0);
 }
