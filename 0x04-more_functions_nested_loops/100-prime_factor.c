@@ -32,6 +32,6 @@ int main(void)
 	{
 		a = n;
 	}
-	printf("%li \n", a);
+	printf("%li\n", a);
 	return (0);
 }
