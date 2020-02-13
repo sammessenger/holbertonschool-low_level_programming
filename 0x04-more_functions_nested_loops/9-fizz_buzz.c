@@ -1,5 +1,5 @@
 /**
- * main - should print 1-100, multipes of 3 are fizz, and multiples of 5 are buzz. Both is fizzbuzz
+ * main - should print 1-100,
  * Return: should be 0
 */
 #include "holberton.h"
