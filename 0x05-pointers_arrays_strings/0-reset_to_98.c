@@ -1,6 +1,6 @@
 /**
  * reset_to_98 - should set @n to 98
- * @*n: pointer to be updated
+ * @n: pointer to be updated
  * Return: void
 */
 #include "holberton.h"
