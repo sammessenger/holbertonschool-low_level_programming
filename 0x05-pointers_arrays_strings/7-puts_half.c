@@ -6,7 +6,7 @@
 #include "holberton.h"
 void puts_half(char *str)
 {
-	float i, a;
+	int i, a;
 
 	i = 0;
 	a = 0;
