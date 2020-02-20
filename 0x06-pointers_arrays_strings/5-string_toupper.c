@@ -1,4 +1,9 @@
 #include "holberton.h"
+/**
+ * string_toupper - should make a string uppercase
+ * @c: pointer to first element of string
+ * Return: pointer to first element of string
+*/
 char *string_toupper(char *c)
 {
 	int i = 0;
