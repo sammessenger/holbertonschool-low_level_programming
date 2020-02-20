@@ -1,5 +1,5 @@
 /**
- * rot13 - should convert a string to rot13 
+ * rot13 - should convert a string to rot13
  * @s: pointer to first element of string
  * Return: should be pointer to first element of string
 */
