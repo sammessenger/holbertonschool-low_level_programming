@@ -1,9 +1,9 @@
 /**
  * leet - should convert a string to 1337 speak
- * @c: pointer to first element of string
+ * @s: pointer to first element of string
  * Return: should be pointer to first element of string
 */
-char *leet (char *s)
+char *leet(char *s)
 {
 	char arr[11] = "aAeEoOtTlL\0";
 	char com[11] = "4433007711\0";
