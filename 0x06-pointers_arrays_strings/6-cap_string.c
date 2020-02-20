@@ -6,8 +6,10 @@
 */
 char *cap_string(char *c)
 {
-	int i = 0;
-	int a = 0;
+	long i = 0;
+	long a = 0;
+
+
 
 	char arr[14] = { ',', ';', '.', '!', '?', '\"', '(', ')', '{', '}', ' ', '\n', '\t', '\0' };
 
