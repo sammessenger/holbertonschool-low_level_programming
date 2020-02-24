@@ -7,9 +7,6 @@
 #include <stddef.h>
 char *_strchr(char *s, char c)
 {
-	if (!c)
-	return (NULL);
-
 	while (s)
 	{
 		if (*s == c)
