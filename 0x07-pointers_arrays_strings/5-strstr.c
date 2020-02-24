@@ -25,6 +25,9 @@ int comp(char *a, char *b)
 */
 char *_strstr(char *haystack, char *needle)
 {
+	if (!haystack || !needle)
+	return (NULL);
+
 	while (*haystack)
 	{
 		if ((*haystack == *needle) && comp(haystack, needle))
