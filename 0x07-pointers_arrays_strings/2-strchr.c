@@ -7,7 +7,7 @@
 #include <stddef.h>
 char *_strchr(char *s, char c)
 {
-	while (s++)
+	while (s)
 	{
 		if (*s == c)
 		{
@@ -17,6 +17,7 @@ char *_strchr(char *s, char c)
 		{
 			return (s + 1);
 		}
+	s++;
 	}
 	return (NULL);
 }
