@@ -30,7 +30,7 @@ char *_strstr(char *haystack, char *needle)
 
 	while (*haystack)
 	{
-		if ((*haystack == *needle) && comp(haystack, needle))
+		if (comp(haystack, needle))
 		return (haystack);
 
 		haystack++;
