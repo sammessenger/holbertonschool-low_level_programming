@@ -38,8 +38,9 @@ int test(int x, int y)
 */
 int _sqrt_recursion(int n)
 {
-	if (n != -1)
+	if (n > 0)
 	return (test(n, 1));
+
 
 	else
 	return (-1);
