@@ -1,14 +1,21 @@
 #include "holberton.h"
 /**
- * _sqrt_recursion - should calculate square root recursively
- * @n: number to calculate
- * Return: sqrt of n
+ * recalc - should help find sqrt
+ * @x: first number
+ * @y: second number
+ * Return: average of x and x / y
 */
 int recalc(int x, int y)
 {
 	return ((y + (x / y)) / 2);
 }
-int test (int x, int y)
+/**
+ * test - should test for sqrt
+ * @x: first number
+ * @y: second number
+ * Return: sqrt if sqrt is found, or recurres to recalc
+*/
+int test(int x, int y)
 {
 	if (x / y == y)
 	{
@@ -24,6 +31,11 @@ int test (int x, int y)
 	}
 
 }
+/**
+ * _sqrt_recursion - should calculate sqrt of n
+ * @n: number to look for sqrt of
+ * Return: sqrt of n
+*/
 int _sqrt_recursion(int n)
 {
 	if (n != -1)
