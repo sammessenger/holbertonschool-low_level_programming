@@ -6,7 +6,7 @@
 */
 int prime_checker(int n, int i)
 {
-	if (n == 1 || n == -1)
+	if (n == 0)
 	{
 		return (0);
 	}
