@@ -26,7 +26,7 @@ int pal_checker(int i, int a, char *s)
 {
 	if (s[a])
 	{
-		if (s[a] == s[i])
+		if (s[a] == s[i] || s[a] + 32 == s[i] + 32 || s[a] - 32 == s[i] - 32)
 		return (1 + pal_checker(i - 1, a + 1, s));
 
 		else
