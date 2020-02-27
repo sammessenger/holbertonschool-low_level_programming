@@ -6,24 +6,20 @@
 */
 int prime_checker(int n, int i)
 {
-	if (n == 0)
+	if (n == 0 || n == 1)
 	return (0);
 
-	if (n == 1)
-	return (0);
-
-	if (n == 2)
+	if (i == 1)
 	return (1);
 
-	if (n % i == 0)
+	else
 	{
+		if (n % i == 0)
 		return (0);
+
+		else
+		return (prime_checker(n, i - 1));
 	}
-	if (i * i > n)
-	{
-		return (1);
-	}
-	return (prime_checker(n, i + 1));
 }
 /**
  * is_prime_number - should determine if number is rpime
@@ -36,5 +32,5 @@ int is_prime_number(int n)
 	n = -n;
 
 
-	return (prime_checker(n, 2));
+	return (prime_checker(n, n / 2));
 }
