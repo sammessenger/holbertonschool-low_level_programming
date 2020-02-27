@@ -14,11 +14,13 @@ int _strlen_recursion(char *s)
 		return (0);
 	}
 }
+
 /**
  * pal_checker - checks for same character
- * @i - last index
- * @a - first index
- * @s - to be checked
+ * @i: last index
+ * @a: first index
+ * @s: to be checked
+ * Return: should recurr
 */
 int pal_checker(int i, int a, char *s)
 {
@@ -34,6 +36,7 @@ int pal_checker(int i, int a, char *s)
 	return (0);
 
 }
+
 /**
  * is_palindrome - should check if a string is a palindrom
  * @s: string to check
