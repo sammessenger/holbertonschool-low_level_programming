@@ -29,7 +29,7 @@ int prime_checker(int n, int i)
 int is_prime_number(int n)
 {
 	if (n < 0)
-	n = -n;
+	return (0);
 
 
 	return (prime_checker(n, n / 2));
