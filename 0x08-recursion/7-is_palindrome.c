@@ -44,6 +44,9 @@ int pal_checker(int i, int a, char *s)
 */
 int is_palindrome(char *s)
 {
+	if(!*s)
+	return (1);
+
 	int i = _strlen_recursion(s) - 1;
 	int a = 0;
 
