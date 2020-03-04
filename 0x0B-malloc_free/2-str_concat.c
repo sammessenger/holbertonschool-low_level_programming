@@ -24,14 +24,14 @@ char *str_concat(char *s1, char *s2)
 	if (!p)
 	return (NULL);
 
-	if (!s1)
+	if (s1)
 	{
 		for (b = 0; b < i; b++)
 		{
 			p[b] = s1[b];
 		}
 	}
-	if (!s2)
+	if (s2)
 	{
 		for (; b < a + i; b++, c++)
 		{
