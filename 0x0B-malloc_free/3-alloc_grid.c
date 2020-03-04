@@ -5,7 +5,7 @@
  * @grid: grid
  * Return: void
 */
-void free_grid(int **grid, int height)
+void free_grid_func(int **grid, int height)
 {
 	int i = 0;
 
@@ -40,7 +40,7 @@ int **alloc_grid(int width, int height)
 		c[i] = malloc(width * sizeof(int));
 		if (!c[i])
 		{
-			free_grid(c, i);
+			free_grid_func(c, i);
 			return (NULL);
 		}
 	}
