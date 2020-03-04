@@ -30,13 +30,21 @@ char *str_concat(char *s1, char *s2)
 	if (!p)
 	return (NULL);
 
+	if (!s1)
+	return (NULL);
+
 	for (b = 0; b < i; b++)
 	{
 		p[b] = s1[b];
 	}
+	if (!s2)
+	return (NULL);
+
 	for (; b < a + i; b++, c++)
 	{
 		p[b] = s2[c];
 	}
+	p[b] = '\0';
+
 	return (p);
 }
