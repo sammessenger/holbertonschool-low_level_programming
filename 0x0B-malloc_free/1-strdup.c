@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * char *_strdup - should allocate space, then assign a string to it
- *
- *
+ * @s: string to assign
+ * Return: a pointer to the new space
 */
 char *_strdup(char *str)
 {
@@ -25,6 +25,9 @@ char *_strdup(char *str)
 	{
 		p[a] = str[a];
 	}
+	if (str[a] == '\0')
+	p[a] = '\0';
+
 	return (p);
 
 }
