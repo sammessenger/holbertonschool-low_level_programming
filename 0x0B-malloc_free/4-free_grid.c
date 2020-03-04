@@ -7,14 +7,14 @@
 #include "holberton.h"
 void free_grid(int **grid, int height)
 {
-	if (!grid)
-		return (NULL);
-
 	int i;
 
-	for (i = 0; i <= height; i++)
+	if (grid)
 	{
-		free(grid[i]);
+		for (i = 0; i <= height; i++)
+		{
+			free(grid[i]);
+		}
+		free(grid);
 	}
-	free(grid);
 }
