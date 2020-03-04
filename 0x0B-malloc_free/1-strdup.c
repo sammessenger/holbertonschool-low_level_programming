@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * char *_strdup - should allocate space, then assign a string to it
- * @s: string to assign
+ * @str: string to assign
  * Return: a pointer to the new space
 */
 char *_strdup(char *str)
