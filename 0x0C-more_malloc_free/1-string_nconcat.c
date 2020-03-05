@@ -8,8 +8,8 @@
 #include "holberton.h"
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0, a = 0, c = 0;
-	unsigned int b;
+	int i = 0, a = 0;
+	unsigned int b, c = 0;
 	char *p;
 
 	if (!s1)
