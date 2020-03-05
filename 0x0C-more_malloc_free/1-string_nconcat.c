@@ -8,10 +8,9 @@
 #include "holberton.h"
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, a = 0;
+	int i = 0, a = 0, c = 0;
 	unsigned int b;
 	char *p;
-
 
 	if (!s1)
 	{
@@ -25,9 +24,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[i])
 	i++;
 
-	p = malloc(((i + n) * sizeof(*s1)) + 1);
-	if (!p)
-		return (NULL);
+	while (s2[c])
+	c++;
+
+	if (c > n)
+	{
+		p = malloc(((i + c) * sizeof(*s2)) + 1);
+		if (!p)
+			return (NULL);
+	}
+	else
+	{
+		p = malloc(((i + n) * sizeof(*s1)) + 1);
+		if (!p)
+			return (NULL);
+	}
 
 
 	for (a = 0; a < i; a++)
