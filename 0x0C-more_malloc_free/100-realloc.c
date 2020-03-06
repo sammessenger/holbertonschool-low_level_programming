@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * _realloc - should reallocate memory block
+ * @ptr: pointer to memory block
  * @old_size: size of old memory block
  * @new_size: size of new memory block
  * Return: pointer to memory block
