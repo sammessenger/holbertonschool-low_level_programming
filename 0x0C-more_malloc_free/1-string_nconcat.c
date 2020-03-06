@@ -13,20 +13,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *p;
 
 	if (!s1)
-	{
 		s1 = "";
-	}
+
 	if (!s2)
-	{
 		s2 = "";
-	}
+
 	while (s1[i])
-	i++;
+		i++;
+
 	while (s2[c])
-	c++;
+		c++;
+
 	if (c > n)
 	{
-		p = malloc(((i + c) * sizeof(*s2)) + 1);
+		p = malloc((i + c) * sizeof(*s2));
 		if (!p)
 			return (NULL);
 	}
