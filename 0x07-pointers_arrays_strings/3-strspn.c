@@ -25,8 +25,8 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			while (s[i] == accept[a])
 			{
-			ret++;
-			i++;
+				ret++;
+				i++;
 			}
 		}
 	}

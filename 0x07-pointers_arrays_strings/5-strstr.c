@@ -1,4 +1,4 @@
-/**
+	/**
  * comp - compare two strings
  * @a: first string
  * @b: second string

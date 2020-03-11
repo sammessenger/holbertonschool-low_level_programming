@@ -10,15 +10,13 @@ char *rot13(char *s)
 	int i = 0;
 	int a = 0;
 
-	char *rot = s;
-
-	while (rot[i])
+	while (s[i])
 	{
 		while (arr[a])
 		{
-			if (rot[i] == arr[a])
+			if (s[i] == arr[a])
 			{
-				rot[i] = com[a];
+				s[i] = com[a];
 				break;
 			}
 			a++;
@@ -26,6 +24,6 @@ char *rot13(char *s)
 		i++;
 		a = 0;
 	}
-	return (rot);
+	return (s);
 
 }

@@ -1,5 +1,4 @@
-/**
- * wildcmp - should compare two strings with wildcards
+/** * wildcmp - should compare two strings with wildcards
  * @s1: first string
  * @s2: second string
  * Return: should be 1 if identical
